@@ -33,6 +33,7 @@ def show_news(request, id):
         'news': news
     }
 
+
     return render(request, "news_detail.html", context)
 
 def show_xml(request):
